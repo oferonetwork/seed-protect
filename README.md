@@ -56,7 +56,7 @@ This will extract `decrypt.txt`.
 ---
 
 ## File Structure
-
+```plaintext
 seed-protect/
 │
 ├── steghide/                # Directory for the Steghide executable
@@ -65,7 +65,7 @@ seed-protect/
 ├── ofero-encrypt.bat        # Script to hide a .txt file into a .jpg file
 ├── ofero-decrypt.bat        # Script to extract hidden text from a .jpg file
 └── README.md                # This documentation file
-
+```
 
 ## Security Notes
 Steghide will prompt for a password during encryption and extraction. Use a strong password to prevent unauthorized access.
